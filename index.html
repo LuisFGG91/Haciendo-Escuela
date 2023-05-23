@@ -101,14 +101,61 @@
 -->
     
     <script>
-        function contar() {
-            console.log('Hola a todo el mundo')
-            for (var num = 0; num <= 5; num++) 
-            { 
-                console.log(num); 
-            } 
-            console.log('adios a todo el mundo')
+
+
+        function condición1() {
+        var x = 25;
+        if (x > 50) {
+            console.log("mayor que 50");
+        }
+        else {
+            console.log("menor que 50");
+        }
+            // porque x no es mayor a 50, la segunda sentencia imprimir, "menor que 50", es la única línea que se ejecutará
+        
         } 
+        function condición2(){
+            var x = 150;
+            if (x > 100) {
+                console.log("mayor que 100");
+            }
+            else if (x > 50) {
+                console.log(" 50");
+            }
+            else if(x > 25) {
+                console.log("mayor que 25");
+            }
+            else {
+                console.log("número pequeño");
+            }
+            // debido a que la primera declaración no es verdadera, pero la segunda declaración es verdadera, imprimirá
+            //"mayor que 50" en nuestra consola. Sin embargo, ni siquiera intentará verificar nuestro else if (x> 25) o
+            //las declaraciones else porque ya ha encontrado algo en la cadena que es verdadero.
+        }
+
+        condición1();
+        condición2();
+/*
+
+        var light = true;
+
+        function onButtonTapTurnFlashlightOn() {
+        if (light == true) {
+        light = false;
+        console.log(light)
+        }
+        else {
+        light = true;
+        console.log(light)
+        }
+        }
+        onButtonTapTurnFlashlightOn();
+        onButtonTapTurnFlashlightOn();
+        onButtonTapTurnFlashlightOn();
+        onButtonTapTurnFlashlightOn();
+        onButtonTapTurnFlashlightOn();
+        onButtonTapTurnFlashlightOn();
+
 
         function misDatos(){
             var primerNombre = 'luis'
@@ -127,8 +174,18 @@
         misDatos();
         misDatos();
         misDatos();
+        var x = 5;
 
+        console.log(x);
+        console.log(x);
+        console.log(x);
+        console.log(x);
 
+        function myBirthYearFunc(){
+            console.log("Nací en " + 1991);
+        }
+        myBirthYearFunc();// Este fragmento de código imprime la oración "Nací en 1991"
+        */
     </script>
 
 </body>
