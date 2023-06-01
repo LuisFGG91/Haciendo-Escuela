@@ -1,6 +1,8 @@
 var leftValue = 200,
   topValue = 100;
 
+var imgVar = 1;
+
 function update() {
 
 	document.getElementById("character").style.left = leftValue + "px";
@@ -15,6 +17,13 @@ document.onkeydown = function (e) {
 	console.log("leftValue :" +		leftValue);
 	console.log("topValue :" + topValue);
 
+	if (imgVar == 1) {
+		imgVar = 2;
+	}
+	else{
+		imgVar = 1;
+	}
+
 	if (e.keyCode == 37) {
 		// LEFT
 		console.log("left")
@@ -22,6 +31,7 @@ document.onkeydown = function (e) {
 		{
 			console.log("ingresa")
 			leftValue = leftValue - 10;
+			document.getElementById("character").style.backgroundImage = "url('img/left" + imgVar + ".png')";
 		}
 
 	} 
@@ -30,6 +40,7 @@ document.onkeydown = function (e) {
 	if (leftValue <= 1080) {
 			console.log("right")
 			leftValue = leftValue + 10;
+			document.getElementById("character").style.backgroundImage = "url('img/right" + imgVar + ".png')";
 		} 
 	}
 
@@ -38,13 +49,15 @@ document.onkeydown = function (e) {
 	if (topValue <= 1080) {
 			console.log("down")
 			topValue = topValue + 10;
+			document.getElementById("character").style.backgroundImage = "url('img/down" + imgVar + ".png')";
 		}
 	}
 
 	else if (e.keyCode ==38){
-		if (topValue >= 0) {
+		if (topValue >= 0) { 
 			console.log("up")
 			topValue = topValue - 10;
+			document.getElementById("character").style.backgroundImage = "url('img/top" + imgVar + ".png')";
 		}
 	}
 
