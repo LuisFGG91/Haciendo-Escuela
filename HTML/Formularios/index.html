@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="main">
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                <div>
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    
+                    <label for="prefiero-no-decir">Prefiero no decir</label>
+                    <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+                </div>
+
+                <div>   
+                    <label for="genero">Genero</label>
+                    <select name="genero" id="genero">
+                        <option value="musculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="prefiero-no.decir">Prefiero no decir</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>  
+</body>
+</html>
