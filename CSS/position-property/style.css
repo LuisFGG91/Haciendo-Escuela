@@ -1,0 +1,11 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+    width: 950px;
+    background-color: silver;
+    margin:5px;
+    padding: 5px;
+}
