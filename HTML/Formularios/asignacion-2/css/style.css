@@ -1,31 +1,12 @@
-img{
-    width: 300px;
-    height: 300px;
-}   
-#main{
-    color: red;
-}
-.color-red{
-    color: red;
-}
-.color-dark{
-    color: rgb(0, 73, 200);
-}
-.background-color-green{
-    background-color: rgb(177, 254, 177);
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-}
-ul,ol li{
-    background-color: aqua;
-    color: black;
-    border: 1px solid brown;
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "helvetica neue", arial, verdana, sans-serif;
 }
 
-table .background-color-green{
-    background-color: rgb(35, 157, 35);
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+#nav-menu{
+  list-style-type: none; /*This gets rid of the bullets.*/
+}
+#nav-menu li {
+  display: inline;
 }

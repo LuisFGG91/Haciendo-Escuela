@@ -1,0 +1,20 @@
+
+body{
+	background-color: red;
+}
+p {
+        width: 180px;
+        margin:10px;
+        padding:20px;
+        font-size: 14px;
+        background: #eee;
+        display: inline-block;
+      }
+#nav-menu{
+  list-style-type: none; /*This gets rid of the bullets.*/
+}
+#nav-menu li {
+  display: inline;
+}
+
+
