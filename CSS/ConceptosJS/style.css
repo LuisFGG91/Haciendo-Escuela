@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+     outline: 3px solid rgb(195, 255, 0); 
+}
+body{
+    height: 720px;
+    width: 100%;
+    background-color: rgb(31, 100, 103);
+    padding: 1%;
+    margin: 1%;
+}
+header{
+    background-color: red;
+    color: white;
+    height: 4%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2% ;
+    margin: 2%;
+}
+div nav{
+    margin: 2%;
+    width: 27%;
+    height: 100%;
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+        border-radius: 10px;
+}
+
+nav ul {
+    margin-left: 10%;
+}
+li ul li{
+    margin-left: 10%;
+}
+div main{
+    margin: 2%;
+    width: 60%;
+    height:100%;
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    vertical-align: top;
+    color: white;
+        border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    height: 4%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2% ;
+}
+@media only screen and (max-width: 480px){
+     /* we will set these stylings only if the device is a screen with a width of 480px or less */
+     .navbtn {
+         background-color: yellow;
+     }
+     body{
+    height: 480px;
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    padding: 1%;
+    margin: 1%;
+}
+header{
+    background-color: red;
+    color: white;
+    height: 4%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2% ;
+    margin: 2%;
+}
+div nav{
+    margin: 2%;
+    width: 27%;
+    height: 100%;
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+        border-radius: 10px;
+}
+
+nav ul {
+    margin-left: 10%;
+}
+li ul li{
+    margin-left: 10%;
+}
+div main{
+    margin: 2%;
+    width: 60%;
+    height:100%;
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    vertical-align: top;
+    color: white;
+        border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    height: 4%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2% ;
+}
+}

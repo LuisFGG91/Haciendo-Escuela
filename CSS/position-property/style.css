@@ -1,11 +1,75 @@
-/*CSS reset settings here*/
-*{
- margin: 0px;
- padding: 0px;
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+#wrapper {
+  width: 50%;
+  height: 10rem;
+  background-color: silver;
+  margin: 5px;
+  padding: 5px;
 }
-#wrapper{
-    width: 950px;
-    background-color: silver;
-    margin:5px;
-    padding: 5px;
+#container {
+  background-color: rgb(177, 4, 4);
+  display: inline-block;
+}
+#box-1,
+#box-2,
+#box-3 {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+#box-1 {
+  background-color: green;
+  color:white;
+    
+  position: absolute;
+    top: 500px;
+    left: 500px;
+  /*  
+  */
+}
+#box-2 {
+  background-color: rgb(0, 255, 251);
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+#box-3 {
+  background-color: blue;
+  color:white;
+}
+
+p{
+    text-align: center;
+    border: 2px solid black;
+}
+div.fixed {
+  position: fixed;
+
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+#container{
+  width:200px;
+  height:200px;
+  background: blue;
+  position:relative;
+}
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px; 
+  margin: 0 auto;
 }
