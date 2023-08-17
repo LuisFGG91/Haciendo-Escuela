@@ -1,0 +1,14 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+    
+.col {
+    align-items: center;
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
